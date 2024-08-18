@@ -1,9 +1,7 @@
 import React from 'react'
 
 const Loader = () => {
-  return (
-    <div>Loader</div>
-  )
+  console.log("Hey");
 }
 
 export default Loader

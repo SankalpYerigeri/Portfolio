@@ -6,7 +6,7 @@ import { logo, menu, close } from "../assets";
 
 const Navbar = () => {
   const [active, setActive] = useState("");
-  const [toggle, setToggle] = useState(false);
+  const [toggle, setToggle] = useState(true);
   return (
     <nav
       className={`${styles.paddingX} w-full flex items-center py-5 fixed top-0 z-20 bg-primary`}
@@ -21,12 +21,12 @@ const Navbar = () => {
           }}
         >
           <img src={logo} className="w-9 h-9 object-contain" />
-          <p className="text-white text-[18px] font-bold cursor-pointer">
-            Sankalp
+          <p className="text-white text-[18px] font-bold cursor-pointer flex">
+            Sankalp| &nbsp;
             <span className="sm: block">Associate Software Engineer</span>
           </p>
         </Link>
-        <ul className="list-none hideen sm:flex flex-row gap-3">
+        <ul className="list-none hidden sm:flex flex-row gap-3">
           {navLinks.map((link) => (
             <li
               key={link.id}
@@ -45,7 +45,24 @@ const Navbar = () => {
            className="w-[28px] h-[28px] object-contain cursor-pointer"
            onClick={()=>setToggle(!toggle)}
            />
+        </div>
 
+        <div className={`${toggle ? 'hidden' : 'flex'} p-6 black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px] z-10 rounded-xl `}>
+        <ul className="list-none flex justify-end items-start flex-col gap-4">
+          {navLinks.map((link) => (
+            <li
+              key={link.id}
+              className={`${
+                active === link.title ? "text-white" : "text-secondary"
+              } font-poppins font-medium cursor-pointer text-[16px]`}
+              onClick={()=>{
+                setToggle(!toggle);
+                setActive(link.title)}}
+            >
+              <Link to={`#${link.id}`}>{link.title}</Link>
+            </li>
+          ))}
+        </ul>
         </div>
       </div>
     </nav>
