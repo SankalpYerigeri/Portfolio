@@ -9,6 +9,7 @@ import Loader from "./components/Loader";
 import Navbar from "./components/Navbar";
 import Tech from "./components/Tech";
 import Works from "./components/Works";
+import { StarsCanvas } from "./components";
 
 
 
@@ -31,7 +32,7 @@ const App = () =>
           <Feedbacks/>
           <div className="relative z-0">
             <Contact/>
-            <Loader/>
+            <StarsCanvas/>
           </div>
         </div>
       </BrowserRouter>
