@@ -20,9 +20,26 @@ const Hero = () => {
             I develop websites using <br className='sm:block hidden'/>
             ReactJS and NodeJS
           </p>
+          
         </div>
 
+        {/* <div className="max-w-sm mx-auto bg-white shadow-lg rounded-lg overflow-hidden space-y-50">
+    <img className="w-full h-48 object-cover" src="https://via.placeholder.com/400x300" alt="Card Image"/>
+    <div className="p-6">
+        <h2 className="text-xl font-semibold text-gray-800">Card Title</h2>
+        <p className="mt-2 text-gray-600">This is a simple card component built with Tailwind CSS. You can add more details about your content here.</p>
+        <button className="mt-4 px-4 py-2 bg-blue-600 text-white text-sm font-medium rounded hover:bg-blue-500 focus:outline-none focus:bg-blue-500">
+            Read More
+        </button>
+    </div>
+      </div> */}
+        
+
+
+        
       </div>
+
+      
       
 
       <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
@@ -45,7 +62,11 @@ const Hero = () => {
           </div>
         </a>
 
+
+
       </div>
+
+      
 
     </section>
   )

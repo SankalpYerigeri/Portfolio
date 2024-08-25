@@ -23,7 +23,9 @@ import {
     jobit,
     tripguide,
     threejs,
-    IRM
+    IRM,
+    python,
+    spring
   } from "../assets";
   
   export const navLinks = [
@@ -98,16 +100,16 @@ import {
       icon: mongodb,
     },
     {
-      name: "Three JS",
-      icon: threejs,
+      name: "Python",
+      icon: python,
     },
     {
       name: "git",
       icon: git,
     },
     {
-      name: "figma",
-      icon: figma,
+      name: "Spring Boot",
+      icon: spring,
     },
     {
       name: "docker",

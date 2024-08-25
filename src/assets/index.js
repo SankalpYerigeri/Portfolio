@@ -26,6 +26,8 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 import IRM from "./company/IRM.png";
+import python from "./tech/python.png";
+import spring from "./tech/spring.png"
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -60,5 +62,7 @@ export {
   carrent,
   jobit,
   tripguide,
-  IRM
+  IRM,
+  python,
+  spring
 };
