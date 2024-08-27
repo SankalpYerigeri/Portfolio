@@ -1,8 +1,14 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 
+
 import { styles } from '../style';
-import { ComputersCanvas } from './canvas'
+import { ComputersCanvas } from './canvas';
+import { github, LeetCode, LinkedIn, logo, Sankalp, Sankalp2, Vinay } from '../assets';
+import { github_link } from '../constants';
+
+{/* <br className='sm:block hidden'/> */}
+
 
 
 const Hero = () => {
@@ -16,10 +22,17 @@ const Hero = () => {
 
         <div className={`${styles.heroHeadText} text-white`}>
           <h1>Hi, I'm <span className='text-[#915eff]'>Sankalp</span></h1>
-          <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I develop websites using <br className='sm:block hidden'/>
-            ReactJS and NodeJS
+          <p className={`${styles.heroSubText} mt-2 text-white-100 typewriter`}>
+            Associate Software   <span className='text-[#915eff]'>Engineer</span>          
           </p>
+          
+          <img src={Sankalp2} alt="My logo" className='w-60 h-60 mt-4 rounded-full object-cover'/>
+          <div className='flex gap-5'>
+          
+          <a href="www.google.com"> <img src={github} alt="My logo" className='w-14 h-14 mt-8 rounded-full object-cover'/></a>
+          <img src={LinkedIn} alt="My logo" className='w-14 h-14 mt-8 rounded-full object-cover'/>
+          <img src={LeetCode} alt="My logo" className='w-14 h-14 mt-8 rounded-full object-cover'/>
+          </div>
           
         </div>
 

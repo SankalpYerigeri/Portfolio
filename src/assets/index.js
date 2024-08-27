@@ -27,6 +27,10 @@ import threejs from "./tech/threejs.svg";
 import bhavana from "./bhavana.jpg"
 import Vinay from "./Vinay.jpg"
 import ruthwik from "./ruthwik.png"
+import LinkedIn from "./LinkrdIn.png";
+import LeetCode from "./LeetCode.png";
+import Sankalp from "./Sankalp.png";
+import Sankalp2 from "./Sankalp.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -47,7 +51,11 @@ export {
   bhavana,
   Vinay,
   ruthwik,
+  LinkedIn,
   CapitalSync,
+  LeetCode,
+  Sankalp,
+  Sankalp2,
   backend,
   creator,
   mobile,

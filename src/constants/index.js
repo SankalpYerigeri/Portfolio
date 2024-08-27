@@ -33,6 +33,8 @@ import {
     Vinay,
     ruthwik
   } from "../assets";
+
+  export const github_link = "www.github.com/SankalpYerigeri";
   
   export const navLinks = [
     {
