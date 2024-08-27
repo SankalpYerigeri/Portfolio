@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { styles } from "../style";
 import { navLinks } from "../constants";
-import { logo, menu, close } from "../assets";
+import { logo, menu, close, loho } from "../assets";
 
 const Navbar = () => {
   const [active, setActive] = useState("");
@@ -20,13 +20,13 @@ const Navbar = () => {
             window.scroll(0, 0);
           }}
         >
-          <img src={logo} className="w-9 h-9 object-contain" />
+          <img src={loho} className="w-9 h-9 object-contain" />
           <p className="text-white text-[18px] font-bold cursor-pointer flex">
             Sankalp| &nbsp;
             <span className="sm: block">Associate Software Engineer</span>
           </p>
         </Link>
-        <ul className="list-none hidden sm:flex flex-row gap-3">
+        {/* <ul className="list-none hidden sm:flex flex-row gap-3">
           {navLinks.map((link) => (
             <li
               key={link.id}
@@ -38,7 +38,7 @@ const Navbar = () => {
               <Link to={`#${link.id}`}>{link.title}</Link>
             </li>
           ))}
-        </ul>
+        </ul> */}
 
         <div className="sm:hidden flex flex-1 justify-end items-center">
           <img src={toggle ? menu : close} alt="menu"
@@ -48,7 +48,7 @@ const Navbar = () => {
         </div>
 
         <div className={`${toggle ? 'hidden' : 'flex'} p-6 black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px] z-10 rounded-xl `}>
-        <ul className="list-none flex justify-end items-start flex-col gap-4">
+        {/* <ul className="list-none flex justify-end items-start flex-col gap-4">
           {navLinks.map((link) => (
             <li
               key={link.id}
@@ -62,7 +62,7 @@ const Navbar = () => {
               <Link to={`#${link.id}`}>{link.title}</Link>
             </li>
           ))}
-        </ul>
+        </ul> */}
         </div>
       </div>
     </nav>

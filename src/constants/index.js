@@ -25,7 +25,13 @@ import {
     threejs,
     IRM,
     python,
-    spring
+    spring,
+    Netflix,
+    Vstream,
+    CapitalSync,
+    bhavana,
+    Vinay,
+    ruthwik
   } from "../assets";
   
   export const navLinks = [
@@ -49,7 +55,7 @@ import {
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "Python Developer",
       icon: mobile,
     },
     {
@@ -57,7 +63,7 @@ import {
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "Photography",
       icon: creator,
     },
   ];
@@ -150,42 +156,42 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
+        "I thought it was impossible to make a website as beautiful as our club, but Sankalp proved me wrong.",
+      name: "Bhavana R",
+      designation: "Core Team",
+      company: "Prathibimba",
+      image: bhavana,
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
+        "I've never met a friend who truly cares about their colleagues' success like Sankalp does.",
+      name: "Vinayak G M",
+      designation: "Associate Software Engineer",
+      company: "Iron Mountain",
+      image: Vinay,
     },
     {
       testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
+        "Sankalp has worked diligently to organize the TEDxUVCE 2023 edition. He has worked on developing a good website and has also engaged in photography.",
+      name: "Ruthwik G",
+      designation: "Core Team",
+      company: "TEDxUVCE",
+      image: ruthwik,
     },
   ];
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "MovieGPT",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "A web application that leverages the power of OpenAI's GPT-3 to enhance your Netflix experience. With this project, you can generate personalized movie and TV show recommendations based on your preferences, engage in natural language conversations to discover new content, and get detailed information about your favorite shows and movies.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "firebase",
           color: "green-text-gradient",
         },
         {
@@ -193,13 +199,13 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
+      image: Netflix,
       source_code_link: "https://github.com/",
     },
     {
-      name: "Job IT",
+      name: "VStream",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "A video streaming platform implemented with Youtube API which is high scalable, fast loading. Implemented the features of live chatting through API polling. Provides efficient search using caching and debouncing. Implemented nest comment feature",
       tags: [
         {
           name: "react",
@@ -214,13 +220,13 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
+      image: Vstream,
       source_code_link: "https://github.com/",
     },
     {
-      name: "Trip Guide",
+      name: "CapitalSync",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "A financial SaaS platform that connects to multiple bank accounts, displays transactions in real-time, allows users to transfer money to other platform users, and manages their finances altogether.",
       tags: [
         {
           name: "nextjs",
@@ -231,11 +237,11 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "tailwindcss",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
+      image: CapitalSync,
       source_code_link: "https://github.com/",
     },
   ];

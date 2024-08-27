@@ -6,6 +6,10 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import loho from "./loho.avif"
+import Netflix from "./Netflixgpt.png"
+import Vstream from "./Vstream.png";
+import CapitalSync from "./CapitalSync.png";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -20,6 +24,9 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import bhavana from "./bhavana.jpg"
+import Vinay from "./Vinay.jpg"
+import ruthwik from "./ruthwik.png"
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -35,6 +42,12 @@ import tripguide from "./tripguide.png";
 
 export {
   logo,
+  loho,
+  Netflix,
+  bhavana,
+  Vinay,
+  ruthwik,
+  CapitalSync,
   backend,
   creator,
   mobile,
@@ -64,5 +77,6 @@ export {
   tripguide,
   IRM,
   python,
-  spring
+  spring,
+  Vstream
 };
