@@ -34,7 +34,9 @@ import {
     ruthwik
   } from "../assets";
 
-  export const github_link = "www.github.com/SankalpYerigeri";
+  export const github_link = "https://www.github.com/SankalpYerigeri";
+  export const linkedin_link = "https://www.linkedin.com/in/sankalp-yerigeri-34a58a226/";
+  export const leetcode_link = "https://leetcode.com/u/Sankalp_Yerigeri/";
   
   export const navLinks = [
     {

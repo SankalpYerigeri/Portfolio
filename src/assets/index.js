@@ -38,7 +38,8 @@ import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 import IRM from "./company/IRM.png";
 import python from "./tech/python.png";
-import spring from "./tech/spring.png"
+import spring from "./tech/spring.png";
+import location from "./location.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -54,6 +55,7 @@ export {
   LinkedIn,
   CapitalSync,
   LeetCode,
+  location,
   Sankalp,
   Sankalp2,
   backend,
