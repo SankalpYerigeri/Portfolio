@@ -135,10 +135,10 @@ import {
       iconBg: "#383E56",
       date: "January 2024 - June 2024",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Developed a application which fetches the data from .eml/.msg files using ReactJS",
+        "Developed a full-stack application using Spring Boot and ReactJS"
+
+        
       ],
     },
     {
@@ -149,9 +149,9 @@ import {
       date: "July 2024 - Present",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Implemented reusable component using ReactJS, Redux and react-router-dom",
+        "Designed UI for uploading documents and connected with AWS S3 for storage purpose"
+        
       ],
     },
      
@@ -226,28 +226,8 @@ import {
       ],
       image: Vstream,
       source_code_link: "https://github.com/",
-    },
-    {
-      name: "CapitalSync",
-      description:
-        "A financial SaaS platform that connects to multiple bank accounts, displays transactions in real-time, allows users to transfer money to other platform users, and manages their finances altogether.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "tailwindcss",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: CapitalSync,
-      source_code_link: "https://github.com/",
-    },
+    }
+    
   ];
   
   export { services, technologies, experiences, testimonials, projects };
